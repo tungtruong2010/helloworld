@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;;
+}
+body{
+	margin: 0;
+}
+/* định dạng header*/
+.header{
+	background-color: #70badc;
+	color: #e6dfdf;
+	padding: 10px;
+	text-align: center;
+}
+/*thanh điều hướng*/
+.topnav{
+	overflow: hidden;
+	background-color: #58257b;
+}
+/*link điều hướng*/
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*link liên kết*/
+.topnav a:hover{
+	background-color: #db7093;
+	color: white;
+	font-weight: bold;
+}
+/*Tạo ba cột*/
+/*Tạo ba cột bằng nhau, float cạnh nhau*/
+.column{
+	float: left;
+	padding: 10px;
+	width: 33.3%;
+}
+/*cột bên trái và phải*/
+.column.side{
+	width: 25%;
+}
+.column.middle{
+	width: 50%;
+}
+/*clear float khác sau cột*/
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*Bố cục linh hoạt xếp chồng lên nhua thay vì cạnh nhau khi có chiều rộng dưới 600px*/
+/*đinhj dạng footer*/
+.footer{
+	background-color: #e9d8f4;
+	color: #58257b;
+	padding: 5px;
+	text-align: center;
+}
